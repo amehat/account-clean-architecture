@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": ".",
+      "declaration": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "incremental": true,
+      "module": "commonjs",
+      "outDir": "dist",
+      "paths": {
+        "domain/*": ["src/domain/*"],
+        "infrastructure/*": ["src/infrastructure/*"],
+        "shared/*": ["src/shared/*"],
+      },
+      "removeComments": true,
+      "skipLibCheck": true,
+      "sourceMap": true,
+      "target": "es2017"
+    },
+    "include": ["src/**/*"]
+  }
