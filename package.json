@@ -1,6 +1,7 @@
 {
     "name": "account-clean-architecture",
-    "version": "1.0.1",
+    "version": "1.0.0",
+    "author": "Arnaud Méhat <amehat@gmail.com>",
     "description": "Application for managing personal accounts in Clean Architecture",
     "license": "MIT",
     "main": "dist/index.js",
